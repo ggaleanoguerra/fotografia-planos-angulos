@@ -1,12 +1,12 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import inicio from "./components/inicio";
+import start from "./components/start";
 import menu from "./components/menu";
 import dashboard from "./components/dashboard";
-import contenido from "./components/contenido";
-import actividades from "./components/actividades";
-import evaluacion from "./components/evaluacion";
-import creditos from "./components/creditos";
+import content from "./components/content";
+import activities from "./components/activities";
+import evaluation from "./components/evaluation";
+import credits from "./components/credits";
 
 
 Vue.use(VueRouter)
@@ -14,8 +14,8 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'inicio',
-    component: inicio,
+    name: 'start',
+    component: start,
   },
   {
     path: '/menu',
@@ -29,27 +29,27 @@ const routes = [
         component: dashboard,
       },
       {
-        path: '/contenido',
-        name: 'contenido',
-        component: contenido,
+        path: '/content',
+        name: 'content',
+        component: content,
       },
       {
-        path: '/actividades/',
-        name: 'actividades',
-        component: actividades,
+        path: '/activities',
+        name: 'activities',
+        component: activities,
        
       },
       {
-        path: '/evaluacion',
-        name: 'evaluacion',
-        component: evaluacion,
+        path: '/evaluation',
+        name: 'evaluation',
+        component: evaluation,
 
       },
 
       {
-        path: '/creditos',
-        name: 'creditos',
-        component: creditos,
+        path: '/credits',
+        name: 'credits',
+        component: credits,
 
       },]
   },];
