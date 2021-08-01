@@ -1,6 +1,6 @@
 <template>
   <v-container fluid>
-    <div class="container-sm">
+    <div class="container">
       <h1>Fotografía: Planos y ángulos</h1>
       <v-btn color="#C5BDBD" elevation="6" to="dashboard" class="btn btn-primary btn-sm" id="button">
         COMENZAR
