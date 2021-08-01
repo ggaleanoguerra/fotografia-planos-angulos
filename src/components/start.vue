@@ -36,7 +36,7 @@ h1 {
 }
 #button {
   margin-left: 3%;
-  margin-top: 35%;
+  margin-top: 30%;
   width: 21%;
   height: 6%;
   font-size: 1.2vw ;
